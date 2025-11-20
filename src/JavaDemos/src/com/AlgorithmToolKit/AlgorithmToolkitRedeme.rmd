@@ -1,0 +1,65 @@
+AlgorithmToolkit – Mini Project 3 
+Single-File Java Implementation of Common DSA Algorithms 
+1. Objective 
+To combine essential Data Structures and Algorithms into a single, reusable Java toolkit. 
+2. Project Description 
+This project contains one Java file: AlgorithmToolkit.java which includes: 
+SortingUtil 
+• Bubble Sort 
+• Insertion Sort 
+• Merge Sort 
+• Quick Sort 
+SearchUtil 
+• Linear Search 
+• Binary Search 
+CollectionUtil 
+• Generic Stack (Linked List) 
+• Generic Queue (Linked List) 
+AnalysisUtil 
+• Measure execution time 
+• Benchmark algorithms 
+Main Method 
+• Includes minimum 2 test cases per method 
+• Prints results and success messages 
+3. Features 
+• Self-contained in a single file 
+• Clean and documented algorithms 
+• All methods tested 
+• Custom Stack & Queue 
+• Benchmark utility included 
+4. Time Complexities 
+Sorting Algorithms: 
+Bubble Sort     - O(n²) 
+Insertion Sort  - O(n²) 
+Merge Sort      
+Quick Sort      - O(n log n) - O(n log n) average 
+Searching Algorithms: 
+Linear Search   - O(n) 
+Binary Search   - O(log n) 
+Stack / Queue operations: 
+All O(1) 
+5. How to Run 
+Command Line: 
+javac AlgorithmToolkit.java 
+java AlgorithmToolkit 
+6. Sample Output 
+[1, 2, 5, 5, 6, 9] 
+[1, 2, 5, 5, 6, 9] 
+[PASS] Sorting Algorithms 
+Linear Search 5 → 2 
+Binary Search 7 → 3 
+[PASS] Searching Algorithms 
+Stack pop → 30 
+[PASS] Queue 
+MergeSort time: 0 ms 
+QuickSort average: 0.0 ms 
+[PASS] Analysis Util 
+All tests completed. 
+7. Project Structure 
+AlgorithmToolkit.java 
+README.md 
+8. Requirements 
+• JDK 8+ 
+• Any Java IDE or terminal 
+9. Author 
+(Add your name, roll number, course) 
